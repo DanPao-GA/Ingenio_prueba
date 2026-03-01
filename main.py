@@ -1,4 +1,13 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+## VARIABLES DE ENTORNO
+CLAVE = os.getenv("CLAVE")
+
 print('hola, mundooo')
+print(CLAVE)
+
 
 ## sdasdasdd titulos
 #@ sadasdasd subtitulos y descripciones
