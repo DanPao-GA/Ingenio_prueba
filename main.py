@@ -19,13 +19,24 @@ print(CLAVE)
 #? sdasdasd enlaces o investigacion
 """
 
+#import os
+#from dotenv import load_dotenv
+#load_dotenv() 
+
+#DB_PORT = os.getenv('DB_PORT')
+#DB_HOST = os.getenv('DB_HOST') #no subir con default
+#DB_USER = os.getenv('DB_USER', "AdminPostgreSQL")
+#print(DB_HOST)
+#print(DB_PORT)
+#print(DB_USER)
+
 import os
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv() #@Carga del entorno visual
 
-DB_PORT = os.getenv('DB_PORT')
-DB_HOST = os.getenv('DB_HOST') #no subir con default
-DB_USER = os.getenv('DB_USER', "AdminPostgreSQL")
-print(DB_HOST)
-print(DB_PORT)
-print(DB_USER)
+MAX_SPEED= os.getenv('MAX_SPEED')
+MAX_TURN= os.getenv('MAX_TURN')
+
+print(MAX_SPEED)
+print(MAX_TURN)
+
