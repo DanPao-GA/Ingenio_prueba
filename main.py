@@ -39,4 +39,5 @@ MAX_TURN= os.getenv('MAX_TURN')
 
 print(MAX_SPEED)
 print(MAX_TURN)
+print('hola')
 
