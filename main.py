@@ -1,3 +1,5 @@
+
+"""
 import os
 from dotenv import load_dotenv
 load_dotenv()
@@ -15,4 +17,15 @@ print(CLAVE)
 #! asdasd problemas y atencion
 #* sdasdasd otros
 #? sdasdasd enlaces o investigacion
+"""
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+DB_PORT = os.getenv('DB_PORT')
+DB_HOST = os.getenv('DB_HOST') #no subir con default
+DB_USER = os.getenv('DB_USER', "AdminPostgreSQL")
+print(DB_HOST)
+print(DB_PORT)
+print(DB_USER)
