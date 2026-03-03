@@ -6,6 +6,7 @@ load_dotenv()
 CLAVE = os.getenv("CLAVE")
 
 print('hola, planetaaaaa')
+print('bai'
 print(CLAVE)
 
 
