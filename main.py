@@ -5,7 +5,7 @@ load_dotenv()
 ## VARIABLES DE ENTORNO
 CLAVE = os.getenv("CLAVE")
 
-print('hola, mundooo')
+print('hola, planetaaaaa')
 print(CLAVE)
 
 
