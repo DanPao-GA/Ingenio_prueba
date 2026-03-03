@@ -30,3 +30,14 @@ print(CLAVE)
 #print(DB_PORT)
 #print(DB_USER)
 
+import os
+from dotenv import load_dotenv
+load_dotenv() #@Carga del entorno visual
+
+MAX_SPEED= os.getenv('MAX_SPEED')
+MAX_TURN= os.getenv('MAX_TURN')
+
+print(MAX_SPEED)
+print(MAX_TURN)
+print('hola')
+
