@@ -1,7 +1,7 @@
 
 """
 import os
-from dotenv import load_dotenv
+fro m dotenv import load_dotenv
 load_dotenv()
 
 ## VARIABLES DE ENTORNO
